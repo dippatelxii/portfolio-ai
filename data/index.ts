@@ -76,7 +76,7 @@ export const projects = [
     des: "Leverages artificial intelligence to automate data analysis tasks, turning raw data into meaningful insights.",
     img: "/p1.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://github.com/dippatelxii/AIDataAnalyst",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "Focuses on building an AI-powered business chatbot that streamlines customer interactions and internal support.",
     img: "/p2.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/dippatelxii/BusinessChatbot",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "Applies computer vision and machine learning techniques to accurately detect and recognize human iris patterns.",
     img: "/p3.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/dippatelxii/EyeTrack",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Monitor worker alertness by tracking eye closure, yawning, and head movements in real time.",
     img: "/p4.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/dippatelxii/DrowsinessDetection",
   },
 ];
 
