@@ -2,6 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -125,37 +126,6 @@ export const testimonials = [
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
-
 export const socialMedia = [
   {
     id: 1,
@@ -168,5 +138,47 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    role: "AI/ML Engineer",
+    company: "PearlThoughts",
+    duration: "2023 - Present",
+    workDetails: [
+      "Developed and deployed machine learning models for predictive analytics",
+      "Built automated data processing pipelines using Python and cloud services",
+      "Collaborated with cross-functional teams to implement AI solutions",
+      "Optimized model performance and reduced processing time by 40%"
+    ],
+    tools: ["Python", "TensorFlow", "PyTorch", "AWS", "Docker", "Git"]
+  },
+  {
+    id: 2,
+    role: "Data Scientist",
+    company: "Rubixe",
+    duration: "2022 - 2023",
+    workDetails: [
+      "Performed statistical analysis and created predictive models for business insights",
+      "Developed recommendation systems using collaborative filtering algorithms",
+      "Created interactive dashboards for data visualization",
+      "Mentored junior team members in machine learning best practices"
+    ],
+    tools: ["Python", "R", "SQL", "Tableau", "Scikit-learn", "Pandas"]
+  },
+  {
+    id: 3,
+    role: "Machine Learning Intern",
+    company: "TechCorp",
+    duration: "2021 - 2022",
+    workDetails: [
+      "Implemented computer vision models for object detection",
+      "Worked on natural language processing tasks using transformers",
+      "Participated in model optimization and hyperparameter tuning",
+      "Contributed to research papers on deep learning applications"
+    ],
+    tools: ["Python", "OpenCV", "Hugging Face", "Jupyter", "NumPy", "Matplotlib"]
   },
 ];
