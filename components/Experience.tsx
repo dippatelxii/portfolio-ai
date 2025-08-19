@@ -4,11 +4,11 @@ import { workExperience } from "@/data";
 const Experience = () => {
   return (
     <div id="experience" className="py-20 w-full">
-      <h1 className="heading">
+      <h1 className="heading text-center">
         My <span className="text-purple">work experience</span>
       </h1>
 
-      <div className="w-full mt-16 relative">
+      <div className="w-full mt-16 relative ml-8 md:ml-16 lg:ml-24">
         {/* Timeline line */}
         <div className="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple via-purple/50 to-transparent"></div>
         
