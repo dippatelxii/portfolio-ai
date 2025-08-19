@@ -130,23 +130,26 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/dippatelxii",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/dippatelxii",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/dippatel12/",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    role: "AI/ML Engineer",
+    role: "AI Engineer Intern",
     company: "PearlThoughts",
-    duration: "2023 - Present",
+    duration: "2025 - Present",
     workDetails: [
       "Developed and deployed machine learning models for predictive analytics",
       "Built automated data processing pipelines using Python and cloud services",
@@ -159,7 +162,7 @@ export const workExperience = [
     id: 2,
     role: "Data Scientist",
     company: "Rubixe",
-    duration: "2022 - 2023",
+    duration: "2024 - 2025",
     workDetails: [
       "Performed statistical analysis and created predictive models for business insights",
       "Developed recommendation systems using collaborative filtering algorithms",
@@ -171,8 +174,8 @@ export const workExperience = [
   {
     id: 3,
     role: "Machine Learning Intern",
-    company: "TechCorp",
-    duration: "2021 - 2022",
+    company: "Technook PVT. LTD",
+    duration: "2022",
     workDetails: [
       "Implemented computer vision models for object detection",
       "Worked on natural language processing tasks using transformers",

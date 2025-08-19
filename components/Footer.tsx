@@ -20,11 +20,11 @@ const Footer = () => {
           Ready to take <span className="text-purple">your</span> digital
           presence to the next level?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white-200 md:mt-10 my-5 text-center max-w-2xl">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:dippatel1207@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -32,19 +32,44 @@ const Footer = () => {
           />
         </a>
       </div>
+      
+      {/* Contact Information */}
+      <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
+        <div className="text-center">
+          <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
+          <a 
+            href="mailto:dippatelxii@gmail.com" 
+            className="text-purple hover:opacity-80 transition-opacity"
+          >
+            dippatel1207@gmail.com
+          </a>
+        </div>
+        <div className="text-center">
+          <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
+          <p className="text-neutral-300">Remote / Worldwide</p>
+        </div>
+        <div className="text-center">
+          <h3 className="text-lg font-semibold text-white mb-2">Availability</h3>
+          <p className="text-neutral-300">Open to opportunities</p>
+        </div>
+      </div>
+
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
+          Copyright © 2025 Dip Patel
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
-            <div
+            <a
               key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              href={info.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:bg-purple/20 transition-colors"
             >
               <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
+            </a>
           ))}
         </div>
       </div>
