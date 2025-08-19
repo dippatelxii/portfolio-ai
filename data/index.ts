@@ -1,6 +1,8 @@
 export const navItems = [
+  { name: "Home", link: "#hero" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Experience", link: "#experience" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently developing an NLP chatbot",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,132 +74,56 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "AI Data Analyst",
+    des: "Leverages artificial intelligence to automate data analysis tasks, turning raw data into meaningful insights.",
+    img: "/p1.jpg",
+    iconLists: ["/python.svg", "/pytorch.svg", "/lli.svg", "/lg.png", "/numpy.svg"],
+    link: "https://github.com/dippatelxii/AIDataAnalyst",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Bussiness ChatBot",
+    des: "Focuses on building an AI-powered business chatbot that streamlines customer interactions and internal support.",
+    img: "/p2.jpg",
+    iconLists: ["/python.svg", "/numpy.svg", "/tf.svg", "/hf.svg", "/lc.svg"],
+    link: "https://github.com/dippatelxii/BusinessChatbot",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Iris Detection",
+    des: "Applies computer vision and machine learning techniques to accurately detect and recognize human iris patterns.",
+    img: "/p3.jpg",
+    iconLists: ["/python.svg", "/hf.svg", "/pytorch.svg", "/tf.svg", "/lg.png"],
+    link: "https://github.com/dippatelxii/EyeTrack",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Drowsiness Detection",
+    des: "Monitor worker alertness by tracking eye closure, yawning, and head movements in real time.",
+    img: "/p4.jpg",
+    iconLists: ["/python.svg", "/numpy.svg", "/lli.svg", "/pytorch.svg", "/tf.svg"],
+    link: "https://github.com/dippatelxii/DrowsinessDetection",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Dip was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Dip's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your brand, Patel is the ideal partner.",
+    name: "Seguttuvan G",
+    title: "Founder, PearlThoughts",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Dip was a rewarding experience. He approaches data problems with curiosity and precision, always ensuring that the insights are both accurate and practical. His strong grasp of statistical modeling and machine learning, combined with clear communication, made complex results easy to understand and apply. If your goal is to transform raw data into meaningful outcomes, Dip brings both the expertise and dedication to make that happen.",
+    name: "Pavithra M",
+    title: "Delivery Manager, PearlThoughts",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+      "Dip’s expertise in statistical modeling and machine learning brought tremendous value to our collaboration. His technical depth, combined with an ability to explain complex ideas simply, made working with him both productive and enjoyable. He doesn’t just analyze numbers—he translates them into strategies that improve performance and create real impact.",
+    name: "Ashok Veda",
+    title: "Chief Data Scientist, Rubixe",
   },
 ];
 
@@ -205,13 +131,58 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/dippatelxii",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/dippatelxii",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/dippatel12/",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    role: "AI Engineer Intern",
+    company: "PearlThoughts, Chennai",
+    duration: "Apr 2025 - Aug 2025",
+    workDetails: [
+      "Developed and deployed machine learning models for predictive analytics",
+      "Built automated data processing pipelines using Python and cloud services",
+      "Collaborated with cross-functional teams to implement AI solutions",
+      "Optimized model performance and reduced processing time by 40%"
+    ],
+    tools: ["Python", "TensorFlow", "PyTorch", "GCP", "Docker", "Git"]
+  },
+  {
+    id: 2,
+    role: "Data Scientist Intern",
+    company: "Rubixe, Bangalore",
+    duration: "Jun 2024 - Mar 2025",
+    workDetails: [
+      "Performed statistical analysis and created predictive models for business insights",
+      "Developed recommendation systems using collaborative filtering algorithms",
+      "Created interactive dashboards for data visualization",
+      "Mentored junior team members in machine learning best practices"
+    ],
+    tools: ["Python", "R", "SQL", "Tableau", "Scikit-learn", "Pandas"]
+  },
+  {
+    id: 3,
+    role: "Machine Learning Intern",
+    company: "Technook PVT. LTD, Bangalore",
+    duration: "Jan 2022 - Apr 2022",
+    workDetails: [
+      "Implemented computer vision models for object detection",
+      "Worked on natural language processing tasks using transformers",
+      "Participated in model optimization and hyperparameter tuning",
+      "Contributed to research papers on deep learning applications"
+    ],
+    tools: ["Python", "Pandas", "scikit-learn", "NumPy", "Matplotlib"]
   },
 ];
