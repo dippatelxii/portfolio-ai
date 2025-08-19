@@ -179,10 +179,9 @@ export const workExperience = [
     company: "Technook PVT. LTD, Bangalore",
     duration: "Jan 2022 - Apr 2022",
     workDetails: [
-      "Implemented computer vision models for object detection",
-      "Worked on natural language processing tasks using transformers",
-      "Participated in model optimization and hyperparameter tuning",
-      "Contributed to research papers on deep learning applications"
+      "Implemented computer vision models for object detection and Worked on natural language",
+      "processing tasks using transformers. Participated in model optimization and hyperparameter",
+      "tuning also Contributed to research papers on deep learning applications."
     ],
     tools: ["Python", "Pandas", "scikit-learn", "NumPy", "Matplotlib"]
   },
