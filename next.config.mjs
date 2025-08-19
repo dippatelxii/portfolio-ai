@@ -1,40 +1,57 @@
-import {withSentryConfig} from '@sentry/nextjs';
+import { withSentryConfig } from '@sentry/nextjs';
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    output: 'export',
+    trailingSlash: true,
+    images: {
+        unoptimized: true
+    },
+    experimental: {
+        missingSuspenseWithCSRBailout: false,
+    },
+    // Disable Sentry during static export to prevent SSR issues
+    webpack: (config, { isServer, dev }) => {
+        if (!dev && !isServer) {
+            // Only enable Sentry in production client-side
+            return config;
+        }
+        return config;
+    }
+};
 
-export default withSentryConfig(nextConfig, {
-// For all available options, see:
-// https://github.com/getsentry/sentry-webpack-plugin#options
+// Only wrap with Sentry config in development or when not doing static export
+const sentryConfig = {
+    // For all available options, see:
+    // https://github.com/getsentry/sentry-webpack-plugin#options
 
-// Suppresses source map uploading logs during build
-silent: true,
-org: "javascript-mastery",
-project: "javascript-nextjs",
-}, {
-// For all available options, see:
-// https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
+    // Suppresses source map uploading logs during build
+    silent: true,
+    org: "javascript-mastery",
+    project: "javascript-nextjs",
+};
 
-// Upload a larger set of source maps for prettier stack traces (increases build time)
-widenClientFileUpload: true,
+const sentryOptions = {
+    // For all available options, see:
+    // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
-// Transpiles SDK to be compatible with IE11 (increases bundle size)
-transpileClientSDK: true,
+    // Upload a larger set of source maps for prettier stack traces (increases build time)
+    widenClientFileUpload: true,
 
-// Uncomment to route browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers.
-// This can increase your server load as well as your hosting bill.
-// Note: Check that the configured route will not match with your Next.js middleware, otherwise reporting of client-
-// side errors will fail.
-// tunnelRoute: "/monitoring",
+    // Transpiles SDK to be compatible with IE11 (increases bundle size)
+    transpileClientSDK: true,
 
-// Hides source maps from generated client bundles
-hideSourceMaps: true,
+    // Hides source maps from generated client bundles
+    hideSourceMaps: true,
 
-// Automatically tree-shake Sentry logger statements to reduce bundle size
-disableLogger: true,
+    // Automatically tree-shake Sentry logger statements to reduce bundle size
+    disableLogger: true,
 
-// Enables automatic instrumentation of Vercel Cron Monitors.
-// See the following for more information:
-// https://docs.sentry.io/product/crons/
-// https://vercel.com/docs/cron-jobs
-automaticVercelMonitors: true,
-});
+    // Enables automatic instrumentation of Vercel Cron Monitors.
+    automaticVercelMonitors: true,
+};
+
+// For static export, use plain config. For dynamic builds, use Sentry wrapper
+export default process.env.NODE_ENV === 'production' && process.env.GITHUB_ACTIONS
+    ? nextConfig
+    : withSentryConfig(nextConfig, sentryConfig, sentryOptions);
