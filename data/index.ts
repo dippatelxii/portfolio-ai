@@ -152,10 +152,11 @@ export const workExperience = [
     company: "PearlThoughts, Chennai",
     duration: "Apr 2025 - Aug 2025",
     workDetails: [
-      "Developed and deployed machine learning models for predictive analytics",
-      "Built automated data processing pipelines using Python and cloud services",
-      "Collaborated with cross-functional teams to implement AI solutions",
-      "Optimized model performance and reduced processing time by 40%"
+      "Pioneered a successful chatbot training initiative; as the most junior team member,",
+      "personally trained the model on 500+ industry-specific queries, leading to a significant", 
+      "improvement in response accuracy. Optimized advanced prompt strategies, enhancing AI model's", 
+      "precision across 30+ domains, from finance to customer service, achieving 87% relevance",
+      "in generated responses and improving user satisfaction."
     ],
     tools: ["Python", "TensorFlow", "PyTorch", "GCP", "Docker", "Git"]
   },
