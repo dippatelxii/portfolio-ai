@@ -32,31 +32,10 @@ const Footer = () => {
           />
         </a>
       </div>
-      
-      {/* Contact Information */}
-      <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
-        <div className="text-center">
-          <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
-          <a 
-            href="mailto:dippatelxii@gmail.com" 
-            className="text-purple hover:opacity-80 transition-opacity"
-          >
-            dippatel1207@gmail.com
-          </a>
-        </div>
-        <div className="text-center">
-          <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
-          <p className="text-neutral-300">Remote / Worldwide</p>
-        </div>
-        <div className="text-center">
-          <h3 className="text-lg font-semibold text-white mb-2">Availability</h3>
-          <p className="text-neutral-300">Open to opportunities</p>
-        </div>
-      </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Dip Patel
+          Copyright © 2025 Dip Patel. All Rights Reserved.
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

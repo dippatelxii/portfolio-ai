@@ -148,21 +148,21 @@ export const workExperience = [
   {
     id: 1,
     role: "AI Engineer Intern",
-    company: "PearlThoughts",
-    duration: "2025 - Present",
+    company: "PearlThoughts, Chennai",
+    duration: "Apr 2025 - Aug 2025",
     workDetails: [
       "Developed and deployed machine learning models for predictive analytics",
       "Built automated data processing pipelines using Python and cloud services",
       "Collaborated with cross-functional teams to implement AI solutions",
       "Optimized model performance and reduced processing time by 40%"
     ],
-    tools: ["Python", "TensorFlow", "PyTorch", "AWS", "Docker", "Git"]
+    tools: ["Python", "TensorFlow", "PyTorch", "GCP", "Docker", "Git"]
   },
   {
     id: 2,
-    role: "Data Scientist",
-    company: "Rubixe",
-    duration: "2024 - 2025",
+    role: "Data Scientist Intern",
+    company: "Rubixe, Bangalore",
+    duration: "Jun 2024 - Mar 2025",
     workDetails: [
       "Performed statistical analysis and created predictive models for business insights",
       "Developed recommendation systems using collaborative filtering algorithms",
@@ -174,14 +174,14 @@ export const workExperience = [
   {
     id: 3,
     role: "Machine Learning Intern",
-    company: "Technook PVT. LTD",
-    duration: "2022",
+    company: "Technook PVT. LTD, Bangalore",
+    duration: "Jan 2022 - Apr 2022",
     workDetails: [
       "Implemented computer vision models for object detection",
       "Worked on natural language processing tasks using transformers",
       "Participated in model optimization and hyperparameter tuning",
       "Contributed to research papers on deep learning applications"
     ],
-    tools: ["Python", "OpenCV", "Hugging Face", "Jupyter", "NumPy", "Matplotlib"]
+    tools: ["Python", "Pandas", "scikit-learn", "NumPy", "Matplotlib"]
   },
 ];
