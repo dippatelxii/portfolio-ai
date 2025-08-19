@@ -152,10 +152,11 @@ export const workExperience = [
     company: "PearlThoughts, Chennai",
     duration: "Apr 2025 - Aug 2025",
     workDetails: [
-      "Developed and deployed machine learning models for predictive analytics",
-      "Built automated data processing pipelines using Python and cloud services",
-      "Collaborated with cross-functional teams to implement AI solutions",
-      "Optimized model performance and reduced processing time by 40%"
+      "Pioneered a successful chatbot training initiative; as the most junior team member,",
+      "personally trained the model on 500+ industry-specific queries, leading to a significant", 
+      "improvement in response accuracy. Optimized advanced prompt strategies, enhancing AI model's", 
+      "precision across 30+ domains, from finance to customer service, achieving 87% relevance",
+      "in generated responses and improving user satisfaction."
     ],
     tools: ["Python", "TensorFlow", "PyTorch", "GCP", "Docker", "Git"]
   },
@@ -165,10 +166,10 @@ export const workExperience = [
     company: "Rubixe, Bangalore",
     duration: "Jun 2024 - Mar 2025",
     workDetails: [
-      "Performed statistical analysis and created predictive models for business insights",
-      "Developed recommendation systems using collaborative filtering algorithms",
-      "Created interactive dashboards for data visualization",
-      "Mentored junior team members in machine learning best practices"
+      "Spearheaded the development of a proof of concept for a face detection model using",
+      "CNN deep learning technique in Python; achieved 95% accuracy in detecting face within",
+      "images, enhancing security measures. •	Elevated projects with hyperparameter tuning",
+      "and feature engineering, improving model efficiency and reducing computation time by 30%"
     ],
     tools: ["Python", "R", "SQL", "Tableau", "Scikit-learn", "Pandas"]
   },
@@ -178,10 +179,9 @@ export const workExperience = [
     company: "Technook PVT. LTD, Bangalore",
     duration: "Jan 2022 - Apr 2022",
     workDetails: [
-      "Implemented computer vision models for object detection",
-      "Worked on natural language processing tasks using transformers",
-      "Participated in model optimization and hyperparameter tuning",
-      "Contributed to research papers on deep learning applications"
+      "Implemented computer vision models for object detection and Worked on natural language",
+      "processing tasks using transformers. Participated in model optimization and hyperparameter",
+      "tuning also Contributed to research papers on deep learning applications."
     ],
     tools: ["Python", "Pandas", "scikit-learn", "NumPy", "Matplotlib"]
   },
