@@ -166,10 +166,10 @@ export const workExperience = [
     company: "Rubixe, Bangalore",
     duration: "Jun 2024 - Mar 2025",
     workDetails: [
-      "Performed statistical analysis and created predictive models for business insights",
-      "Developed recommendation systems using collaborative filtering algorithms",
-      "Created interactive dashboards for data visualization",
-      "Mentored junior team members in machine learning best practices"
+      "Spearheaded the development of a proof of concept for a face detection model using",
+      "CNN deep learning technique in Python; achieved 95% accuracy in detecting face within",
+      "images, enhancing security measures. •	Elevated projects with hyperparameter tuning",
+      "and feature engineering, improving model efficiency and reducing computation time by 30%"
     ],
     tools: ["Python", "R", "SQL", "Tableau", "Scikit-learn", "Pandas"]
   },
