@@ -73,7 +73,7 @@ const RecentProjects = () => {
                     className="flex items-center cursor-pointer hover:opacity-80 transition-opacity"
                   >
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                      Check Live Site
+                      GitHub
                     </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </a>
